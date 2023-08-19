@@ -1,0 +1,43 @@
+.integrate {
+    padding: 75px;
+    background-color: white;
+
+
+    h2 {
+        text-align: center;
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 75px;
+        margin-top: 169px; 
+    }
+
+    .description {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-left: 75px;
+    }
+
+    .imgBirds{
+        height: 445px;
+        flex-shrink: 0;
+        margin-bottom: 22px;
+    }
+
+    .primaryBtn {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #Ff6336;
+        background: #Ff6336;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 60px;
+        padding: 0 20px;
+        height: 60px;
+        width: 193px;
+        margin-left: 369px;
+        margin-bottom: 100px;
+    }
+}

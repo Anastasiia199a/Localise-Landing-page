@@ -1,0 +1,37 @@
+@mixin flexStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@mixin positionCenterBlock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin respond($size) {
+    @if $size == 1400px {
+        @media screen and (max-width: 1400px) {
+            @content;
+        }
+    }
+    @if $size == 1220px {
+        @media screen and (max-width: 1220px) {
+            @content;
+        }
+    }
+
+    @if $size == 1160px {
+        @media screen and (max-width: 1160px) {
+            @content;
+        }
+    }
+
+    @if $size == 880px {
+        @media screen and (max-width: 880px) {
+            @content;
+        }
+    }
+}

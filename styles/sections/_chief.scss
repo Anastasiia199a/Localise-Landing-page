@@ -1,0 +1,40 @@
+.chief {
+    padding: 75px;
+    background-color: #C9E8F2;
+
+    &__container {
+       @include flexStart;
+    }
+
+    &__text {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px; 
+    margin-bottom: 23px;
+ }
+
+   &__name {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 7px; 
+   } 
+
+   &__company {
+   margin-bottom: 7px;
+   width: 115.216px;
+   height: 25px;
+   }
+
+   &__imageChief {
+   position: absolute;
+   right: 100px; 
+   width: 310px;
+   height: 310px;
+   flex-shrink: 0;
+   }
+  
+}
+
+
+

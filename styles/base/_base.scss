@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-family, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 55px;
+    margin: 0 auto;
+
+   @include respond(1220px) {
+        padding: 0 24px;
+    }
+}
+
+.mr-10 {
+    margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+.btn  {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.btn.primary {
+text-align: center;
+border: 1px solid $color-primary;
+background: $color-primary;
+color: #fff;
+padding: 0 22px;
+height: 45px;
+}
+
+.btn.primary:hover {
+    background: transparent;
+    color: $color-primary;
+}
+
+.btn.primary.large {
+    height: 60px;
+    padding: 0 42px;
+}
+
+.btn.primary.black.large {
+    padding: 0 30px;
+}
+
+.btn.primary.black {
+    background: transparent;
+    color: $color-black;
+    padding: 0 36px;
+    border: $border;
+}
+
+.btn.primary.black:hover {
+    background-color: $color-black;
+    color: $color-white;
+}

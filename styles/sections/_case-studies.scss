@@ -1,0 +1,109 @@
+.case-studies {
+    padding: 92px 0 0 0;
+
+    @media screen and (max-width: 880px) {
+        flex-direction: column;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+        padding: 0 20px 95px 20px;
+        border-bottom: 1px solid $color-black;
+    }
+
+    &__info {
+        @include flexStart;
+        max-width: 300px;
+        width: 100%;
+        margin-right: 140px;
+
+        &__title {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 50px;
+            margin-bottom: 28px;
+        }
+
+        &__image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 30px;
+        }
+
+        &__logo {
+            height: 32px;
+            margin-bottom: 10px;
+        }
+       
+        &__text {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px; 
+            margin-bottom: 15px;
+        }
+     
+        &__link {
+
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px; 
+            color: $color-black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+             
+
+        }
+        &:hover {
+            color: $color-primary;
+            cursor: pointer;
+        }
+
+    }
+
+    &__list {
+        @include flexStart;
+        max-width: 186px;
+        width: 100%;
+        padding-top: 5px;
+        margin-right: 34px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &__name {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            margin-bottom: 20px;
+        } 
+       
+
+        &__item {
+            display: flex;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &__link {
+                display: flex;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 15px;
+                text-decoration: none;
+                color: $color-black;
+                transition: color 0.3s ease;       
+            }
+    }
+}
+ 
+    
+
+    
+    
+
+}
